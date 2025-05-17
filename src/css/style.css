@@ -55,6 +55,7 @@ input {
     background: #FFF;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
+    padding-left: 18px;
     font-weight: 700;
     color: #555;
     cursor: pointer;
@@ -109,7 +110,7 @@ section {
     font-size: 14px;
 }
 
-.currency-value {
+.currency-value, .currency-value-to-convert {
     color: #555;
     font-weight: 700;
     font-size: 20px;
