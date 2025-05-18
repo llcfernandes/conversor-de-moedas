@@ -115,3 +115,28 @@ section {
     font-weight: 700;
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+    .logo{
+        display: none;
+    }
+
+    main {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .logo{
+        display: none;
+    }
+
+    main {
+        margin: 30px auto;
+        width: 300px;
+    }
+
+    .convert-button{
+        width: 100%;
+    }
+}
