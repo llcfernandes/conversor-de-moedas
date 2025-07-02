@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #8A51FC;
+    background-color: #8a51fc;
 }
 
 .logo {
@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    background-color: #FFF;
+    background-color: #fff;
     width: 375px;
     border-radius: 20px;
     margin: 0 auto 40px;
@@ -35,8 +35,8 @@ label {
 select {
     height: 48px;
     border-radius: 4px;
-    border: 1px solid #BBB;
-    background: #FFF;
+    border: 1px solid #bbb;
+    background: #fff;
     width: 100%;
     margin-bottom: 24px;
     appearance: none;
@@ -51,8 +51,8 @@ input {
     width: 100%;
     height: 48px;
     border-radius: 4px;
-    border: 1px solid #BBB;
-    background: #FFF;
+    border: 1px solid #bbb;
+    background: #fff;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     padding-left: 18px;
@@ -64,29 +64,29 @@ input {
 button {
     width: 100%;
     border-radius: 5px;
-    background: #772FD3;
+    background: #772fd3;
     width: 327px;
     height: 48px;
     font-size: 18px;
     font-weight: 700;
-    color: #FFF;
+    color: #fff;
     margin-top: 23px;
     border: none;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
 button:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 button:active {
-    opacity: .6;
+    opacity: 0.6;
 }
 
 section {
     margin-top: 36px;
-    border: 1px solid #772FD3;
+    border: 1px solid #772fd3;
     border-radius: 20px;
     padding: 12px;
     display: flex;
@@ -110,14 +110,15 @@ section {
     font-size: 14px;
 }
 
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     color: #555;
     font-weight: 700;
     font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
-    .logo{
+    .logo {
         display: none;
     }
 
@@ -127,7 +128,7 @@ section {
 }
 
 @media screen and (max-width: 390px) {
-    .logo{
+    .logo {
         display: none;
     }
 
@@ -136,7 +137,7 @@ section {
         width: 300px;
     }
 
-    .convert-button{
+    .convert-button {
         width: 100%;
     }
 }
